@@ -1,0 +1,102 @@
+body {
+    background-image: url("seats.jpg");
+    background-size: 100%;
+    font-family: sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+    margin-bottom: auto;
+}
+
+
+#wrapper{
+    background-color: #eee;
+    width:80%;
+    max-width: 960px;
+    margin:0px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    padding: 0px 0 20px; 
+    overflow: hidden;
+    border: 1px soild lightgray;
+    margin-bottom: 20px;
+}
+
+
+#page-banner{
+    background-image: url("screen2.jpg");
+    background-size: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#page-banner h1,
+#page_banner p{
+    width: 100%;
+    text-align: center;
+    margin: 0px 0;    
+    font-weight: 800;
+    font-family: sans-serif;
+    position: relative;
+}
+
+#movie-list,
+#add-movie{
+    margin: 10px;
+}
+#movie-list  ul{
+    list-style-type:none;
+    padding: 0;
+}
+#movie-list li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+#movie-list li:hover{
+    border-color: #9361bf;
+}
+.delete{
+    float: right;
+    background: red;
+    padding:6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    transition: opacity 0.3s; 
+}
+.delete:hover{
+    opacity: 0.5; 
+
+}
+#add-movie button{
+    border: 1px soild green;
+    background: green;
+    padding: 10px 20px;
+    font-size: 16px;
+    display:0;
+    border-radius:0 4px 4px 0;
+    cursor:pointer;
+    width: 100px;
+    float:left;
+    margin:20px 0;
+    border-left: 0;
+    color: white;
+    transition: opacity 0.3s; 
+}
+#add-movie button:hover{
+    opacity: 0.5; 
+
+}
+
+
+
+input[type="text"] {
+    width: 30%; /* Adjust the width as needed */
+    height: 18px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin:20px 0;
+    
+    
+}
